@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:id="@+id/imgReady"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="380dp"
+        android:src="@drawable/img_flatdark" />
+
+    <EditText
+        android:id="@+id/tbLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgReady"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-430dp"
+        android:backgroundTint="@color/colorAccentLight"
+        android:ems="10"
+        android:hint="@string/tbLogin"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorGray"
+        android:drawableLeft="@drawable/img_user" />
+
+    <EditText
+        android:id="@+id/tbPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgReady"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-390dp"
+        android:backgroundTint="@color/colorAccentLight"
+        android:ems="10"
+        android:hint="@string/tbPass"
+        android:textSize="16sp"
+        android:inputType="textPassword"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorGray"
+        android:drawableLeft="@drawable/img_password" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imgReady"
+        android:layout_marginTop="-290dp"
+        android:onClick="btnLogin"
+        android:background="@drawable/style_round_button_dark"
+        android:elevation="82dp"
+        android:textSize="16sp"
+        android:textAllCaps="true"
+        android:fontFamily="@font/expressway_rg"
+        android:text="@string/btnLogin"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/tvForgot"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgReady"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-230dp"
+        android:text="@string/tvNotRegistered"
+        android:textSize="12sp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/tvRights"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgReady"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-90dp"
+        android:text="@string/Rights"
+        android:textSize="12sp"
+        android:fontFamily="@font/bebasneue"
+        android:textColor="@color/colorBlack"/>
+
+</RelativeLayout>

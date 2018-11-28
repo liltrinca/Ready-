@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/style_gradient">
+
+    <ImageView
+        android:id="@+id/imgReady"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-90dp"
+        android:src="@drawable/img_flat2" />
+
+    <TextView
+        android:id="@+id/tvUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnReadQR"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorWhite"
+        android:text="@string/tvUser"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/occupied"/>
+
+    <Button
+        android:id="@+id/btnReadQR"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/style_round_button_white"
+        android:elevation="36dp"
+        android:onClick="ReadQR"
+        android:text="@string/btnReadQr"
+        android:textColor="@color/colorBlack"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:fontFamily="@font/expressway_rg"/>
+
+    <EditText
+        android:id="@+id/tbCode"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnReadQR"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/tbInsertCode"
+        android:inputType="number"
+        android:backgroundTint="@color/colorAccentLight"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>

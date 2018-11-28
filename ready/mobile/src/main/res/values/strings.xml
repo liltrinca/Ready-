@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Ready!</string>
+    <string name="bmvHome">Home</string>
+    <string name="bmvPromo">Discounts</string>
+    <string name="bmvProfile">Profile</string>
+    <string name="bmvLogout">Logout</string>
+    <string name="btnReadQr">Read QR Code</string>
+    <string name="tvUser">Welcome, guest!</string>
+    <string name="tbInsertCode">Insert Order Code</string>
+    <string name="tbLogin">Login</string>
+    <string name="tbPass">Password</string>
+    <string name="btnLogin">Login</string>
+    <string name="tvNotRegistered">Still not registered? Register Now!</string>
+    <string name="Rights">®ETYMP, 2018  All Rights Reserved</string>
+</resources>
